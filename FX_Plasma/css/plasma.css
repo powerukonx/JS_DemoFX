@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900i&display=swap');
+
+body {
+  background:black;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size:24px;
+	letter-spacing:0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 
+						8px 8px #88ffff,
+						20px 20px #0088ff;
+}
+
+#plasmafx {
+  background-position: center;
+  background-image: url("../image/ukonx.jpg");
+  background-repeat: no-repeat;
+}
+
+#canvas {
+  border: 2px solid white;
+  border-radius: 15px;
+  width: 256px;
+  height: 256px;
+}
+
+#btPlayPause {
+  width: 20%;
+  box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
